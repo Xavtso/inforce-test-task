@@ -12,7 +12,7 @@ export const Product = (props) => {
 
   const handleAddToCart = () => {
     setShowOptions(true);
-  };
+  }; 
 
   const handleColorSelect = (color) => {
     addToCart(id, color);

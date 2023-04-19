@@ -15,6 +15,6 @@ export const Shop = () => {
           <Product data={product} />
         ))}
       </div>
-    </div>
+    </div> 
   );
 };

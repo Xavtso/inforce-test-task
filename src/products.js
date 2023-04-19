@@ -14,7 +14,7 @@ export const PRODUCTS = [
     productName: "IPhone",
     price: 999.0,
     productImage: product1,
-  },
+  }, 
   {
     id: 3,
     productName: "Macbook Pro 2022 (M1)",

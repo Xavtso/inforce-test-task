@@ -12,7 +12,7 @@ const Options = ({ onColorSelect, onCancel }) => {
     e.preventDefault();
     if (selectedColor) {
       onColorSelect(selectedColor);
-    }
+    } 
   };
 
   return (

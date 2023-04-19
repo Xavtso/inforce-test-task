@@ -4,7 +4,7 @@ import { ShoppingCart } from "phosphor-react";
 import "./navbar.css";
 
 export const Navbar = () => {
-  return (
+  return ( 
     <div className="navbar">
       <div className="links">
         <Link to="/"> Shop </Link>

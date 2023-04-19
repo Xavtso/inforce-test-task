@@ -2,10 +2,10 @@ import React, { useState, useContext } from "react";
 import { ShopContext } from "../../context/shop-context";
 
 export const CartItem = (props) => {
-  const { id, productName, price, productImage, color } = props.data;
+  const { id, productName, price, productImage,} = props.data;
   const { cartItems, addToCart, removeFromCart, updateCartItemCount } =
     useContext(ShopContext);
-
+ 
   const [showModal, setShowModal] = useState(false);
 
   const handleRemoveClick = () => {
@@ -27,7 +27,7 @@ export const CartItem = (props) => {
 
   return (
     <div className="cartItem">
-      <img src={productImage} />
+      <img src={productImage} alt="item"/>
       <div className="description">
         <p>
           <b>{productName}</b>
