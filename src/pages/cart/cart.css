@@ -1,0 +1,81 @@
+.cart {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cartItem {
+  width: 700px;
+  height: 250px;
+  display: flex;
+
+  align-items: center;
+  box-shadow: 0px 3px 15px rgba(0, 0, 0, 0.2);
+  border-radius: 25px;
+  margin: 30px;
+}
+
+.cartItem img {
+  width: 200px;
+}
+
+.cartItem .description {
+  width: 100%;
+  font-size: 26px;
+}
+
+.countHandler input {
+  width: 40px;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.checkout button {
+  width: 150px;
+  height: 50px;
+  background-color: rgb(19, 19, 19);
+  color: white;
+  border: none;
+  border-radius: 8px;
+  margin: 10px;
+  cursor: pointer;
+}
+
+.color-desc{
+  font-size: 18px
+}
+
+.removeButton{
+  position: relative;
+  border-radius: 50%;
+  border: none;
+  background-color: rgb(246, 94, 94);
+  color: #eee;
+  width: 2.5rem;
+  height: 2rem;
+  padding:0.2rem 0.5rem;
+  right: 20px;
+  top: -5.5rem;
+  cursor: pointer;
+}
+.modal{
+  background-color: #eee;
+  text-align: center;
+  border-radius: 20px;
+  margin:5px;
+}
+
+.modal button{
+  border-radius: 25px;
+  background-color: rgb(246, 94, 94);
+  color: #eee;
+  width: 2.5rem;
+  height: 2rem;
+  padding:0.2rem 0.5rem;
+  right: 20px;
+  top: -5.5rem;
+  cursor: pointer;
+  margin: 5px;
+}
+
